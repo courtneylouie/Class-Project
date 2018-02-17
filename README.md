@@ -1,7 +1,7 @@
 # Final Project  
 
 **Overview**  
-I used the Google Scholar API to get publication titles and years for animal science professors at 5 universities in the US. I then used kmeans to cluster the titles to explore relationships between professors and universities.
+I used the scholarly package to get publication titles, years, and number of citations from Google Scholar for animal science professors at 5 universities in the US. Then I used the text from the titles to try to predict the number of citations.
 
 **Getting the data**  
 Notebook: data_acquisition.ipynb  
@@ -12,6 +12,6 @@ Notebook: data_exploration.ipynb
 Input dataset: data.txt  
 Output dataset: cleaned.txt  
 
-**Kmeans clustering**  
+**Modeling**  
 Notebook: statistics.ipynb  
 Input dataset: cleaned.txt  
