@@ -1,6 +1,8 @@
 # Faculty Research in Animal Science
 
 **Overview**  
+This is a project for my Data & Web Technologies for Data Analysis class. Skills learned include data wrangling using pandas, plotting using seaborn, word clouds, natural language processing using scikitlearn and TfidfVectorizer, knn regression, knn classification, and kmeans clustering.
+
 I used the scholarly package to get publication titles, years, and number of citations from Google Scholar for animal science professors at 5 universities in the US. One goal was to see whether research topics vary a lot by university. For this, I made word clouds. Another goal was to make predictions based on the text of the titles.
 
 **Getting the data**  
